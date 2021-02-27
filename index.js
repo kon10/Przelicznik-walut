@@ -1,4 +1,4 @@
-axios.defaults.baseURL = 'http://api.nbp.pl/api/exchangerates/rates/A';
+axios.defaults.baseURL = 'https://api.nbp.pl/api/exchangerates/rates/A';
 
 let resultBtn = document.querySelector('.result');
 resultBtn.addEventListener('click', calculateRate);
