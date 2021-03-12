@@ -1,0 +1,124 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    color: #ffffff;
+}
+
+.container {
+    width: 70%;
+    height: 90vh;
+    margin: 20px auto;
+    background-image: url(../img/exchange.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    height: 20%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 40px 30px;
+}
+
+.title-bar {
+    margin-left: 36px;
+    align-self: center;
+    font-size: 1.2em;
+    letter-spacing: 2.5px;
+    text-shadow: 3px 3px 3px #000;
+}
+
+
+.panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75%;
+}
+
+.insert-box {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 35px;
+    margin-right: 118px;
+}
+
+.insert-instr {
+    
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    text-shadow: 1px 3px 3px #000;
+}
+
+.val {
+    border-radius: 10px;
+    width: 160px;
+    height: 50px;
+    margin: 0 20px;
+    padding: 10px;
+    font-size: 1em;
+    text-align: right;
+    border: none;
+    background-color: #FFF;
+    outline: none; 
+}
+
+#sel-currency {
+    height: 50px;
+    font-size: 1em;
+}
+
+.info {
+    visibility: hidden;
+    margin-bottom: 17px;
+    margin-left: 15px;
+    color: #ff3b3b; 
+    text-align: center;
+    font-size: 0.7em;
+    letter-spacing: 1px;
+    text-shadow: 1px 2px 9px #000;
+}
+
+.result {
+    width: 125px;
+    height: 58px; 
+    border:  3px solid rgb(0, 0, 0);
+    margin-bottom: 40px;
+    font-size: 0.7em;
+    font-weight: 600;
+    letter-spacing: 2.5px;
+    background-color: #0d2a86;
+    color: #FFF;
+    border-radius: 10px;
+    text-shadow: 1px 1px 1px #000;
+    box-shadow: 0px 8px 11px #00000033;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline:none;
+}
+
+.result:hover {
+    background-color: #001aff;
+    box-shadow: 0px 8px 20px #000;
+    transform: translateY(-5px);
+}
+
+.value {
+height: 50px;
+    margin-bottom: 40px;
+    font-size: 32px;
+    font-weight: 600;
+    text-shadow: 1px 3px 3px #000;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.last-rate-info {
+    font-size: 0.85em;
+    text-align: center;
+    text-shadow: 2px 3px 3px #000;
+}

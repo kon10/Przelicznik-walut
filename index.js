@@ -30,11 +30,7 @@ function refreshValOutput(lastRate, errorInfo, code, lastTblDate) {
     let totalInCurr = insertVal * lastRate
     const totalVal = document.querySelector('.value');
     totalVal.innerText = totalInCurr.toFixed(2).replace(".", ",") + ' PLN';
-    refreshLastRateInfo(code, lastRate, lastTblDate);
     errorInfo.style.setProperty('visibility', 'hidden');
     return totalInCurr;
   };
 };
-
-
-
